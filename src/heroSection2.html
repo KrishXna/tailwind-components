@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hero Section</title>
+    <link rel="stylesheet" href="./output.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+  </head>
+  <body class="bg-gray-100">
+    <div
+      class="flex justify-center px-5"
+    >
+      <div>
+        <div class="flex items-center justify-between py-4">
+            <div>Logo</div>
+            <div class="flex items-center gap-x-4">
+                <button class="bg-yellow-600 hover:bg-yellow-700 text-white rounded-full px-4 py-1">Get App</button>
+                <div class="hidden md:block">
+                <ul class="flex gap-x-4 font-semibold">
+                    <li class="hover:underline cursor-pointer">Home</li>
+                    <li class="hover:underline cursor-pointer">Support</li>
+                    <li class="hover:underline cursor-pointer">Trips</li>
+                    <li class="hover:underline cursor-pointer">Sign In</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 items-center">
+          <div class="w-full md:order-2">
+            <img src="../assets/travel.png" alt="img" />
+          </div>
+          <div class="max-w-xl">
+            <h2 class="text-4xl text-yellow-600">
+              No matter where you're going from,
+              <span class="!text-green-800">we take you there</span>
+            </h2>
+            <p>We'll do the searching. You do the saving.</p>
+            <div class="flex gap-4 py-6">
+              <button
+                class="px-4 py-2 bg-green-900 hover:bg-green-700 text-white rounded-lg"
+              >
+                Book a trip
+              </button>
+              <button
+                class="px-4 py-2 bg-yellow-600 hover:bg-yellow-700 text-white rounded-lg"
+              >
+                View Places
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="w-full max-w-7xl mx-auto shadow-xl p-4 rounded-xl bg-white">
+          <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-y-4">
+            <div class="flex items-center gap-2">
+              <div><i class="fa-solid fa-magnifying-glass"></i></div>
+              <div>
+                <p class="text-gray-400">Destination</p>
+                <h2 class="md:text-xl font-bold">Where to ?</h2>
+              </div>
+            </div>
+            <div class="flex items-center gap-2">
+              <div><i class="fa-solid fa-hotel"></i></div>
+              <div>
+                <p class="text-gray-400">Check In</p>
+                <h2 class="md:text-xl font-bold">20 Feb 2024</h2>
+              </div>
+            </div>
+            <div class="flex items-center gap-2">
+              <div><i class="fa-solid fa-hotel"></i></div>
+              <div>
+                <p class="text-gray-400">Check Out</p>
+                <h2 class="md:text-xl font-bold">28 Feb 2024</h2>
+              </div>
+            </div>
+            <div class="flex items-center gap-2">
+              <div><i class="fa-solid fa-building-user"></i></div>
+              <div>
+                <p class="text-gray-400">Guest and Rooms</p>
+                <h2 class="md:text-xl font-bold">2 Guests, 1 Room</h2>
+              </div>
+            </div>
+            <div class="flex justify-center col-span-2 md:col-span-1">
+              <button
+                class="py-3 bg-green-800 w-full hover:bg-green-700 text-white rounded-xl"
+              >
+                Search
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>
+
+
